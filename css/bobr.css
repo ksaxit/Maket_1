@@ -2,7 +2,7 @@ body {
   margin:0;
   padding:0;
   overflow-x: hidden;
-  height: 2000px;
+  height: 4000px;
 }
 .container {
   width: 840px;
@@ -81,19 +81,23 @@ body {
 
 .zglav {
   color:royalblue;
-  font-size: 40px;
+  font-size: 48px;
   font-family: "Roboto";
+  text-align: center;
 }
 
 .text {
   color: black;
   border: 1px solid rgb(231, 165, 66);
   background: rgb(231, 165, 66);
-  border-radius: 5px 50px 50px 5px;
+  border-radius: 5px 50px 50px 50px;
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: 400px;
   box-shadow: 5px 5px 10px;
+  padding-left: 10px;
+  width: 810px;
+  margin-left: 10px;
 }
 
 .main_2 {
@@ -154,7 +158,6 @@ body {
   border-radius: 120px 120px;
   width: 30px;
   height: 30px;
-  
 }
 
 .img-in-block {
@@ -176,4 +179,153 @@ body {
 .img-in-block-two {
   padding-bottom: 9px;
 
+}
+.main-3 {
+  display:flex;
+  justify-content: space-between;
+}
+
+.block-in-img {
+  background: rgba(197, 197, 197, 0.404);
+  border-radius: 200px 200px;
+  width: 300px;
+  height: 48px;
+  margin-top: 40px;
+  font-family:fantasy;
+  font-size: 14px;
+  color: Blue;
+}
+
+
+
+.inimg-4 {
+  background: rgb(57, 57, 245);
+  position: absolute;
+  top:2425px;
+  right: 530px;
+  border:1px solid rgb(57, 57, 245);
+  border-radius: 120px 120px;
+  width: 30px;
+  height: 30px;
+}
+
+.img-in-block-1 {
+  padding-top: 12px;
+  padding-left: 10px;
+}
+
+.inimg-5 {
+  background: rgb(57, 57, 245);
+  position: absolute;
+  top:2425px;
+  right: 480px;
+  border:1px solid rgb(57, 57, 245);
+  border-radius: 120px 120px;
+  width: 30px;
+  height: 30px;
+}
+
+.img-in-block-2 {
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+.foto {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 180px;
+}
+
+.foto1 {
+  padding-top: 19px
+}
+
+.main-4 {
+  display:flex;
+  justify-content: space-between;
+}
+
+figcaption {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400px;
+  color: rgba(80, 80, 80, 1);
+}
+
+.main-4 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 18px;
+  color: grey;
+}
+
+.cont {
+  background: rgba(0, 0, 255, 0.103);
+  border-radius: 5% 5%;
+}
+
+.popular {
+  font-family: Europe;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: Blue;
+  padding-left: 10px;
+}
+
+.cont-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.inimg-block {
+  background: white;
+  border-radius: 200px 200px;
+  width: 300px;
+  height: 48px;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.inimg-block-1 {
+  background: rgb(57, 57, 245);
+  border:1px solid rgb(57, 57, 245);
+  border-radius: 120px 120px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 9px;
+  left: 20px;
+}
+
+.inimg-block-2 {
+  background: rgb(57, 57, 245);
+  border:1px solid rgb(57, 57, 245);
+  border-radius: 120px 120px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 60px;
+  bottom: 23px
+}
+.inimg-img{ 
+  padding-top: 11px;
+  padding-left: 11px;
+}
+
+.all-foto {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 160px;
+  position: relative;
+  bottom: 63px;
+  font-family:fantasy;
+  font-size: 14px;
+  color: Blue;
+}
+.foto2 {
+  padding-top: 19px;
 }
