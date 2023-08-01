@@ -530,3 +530,76 @@ figcaption {
   padding-right: 30px;
   color: rgba(29, 54, 112, 1);
 }
+
+a {
+  text-decoration: none
+}
+
+@keyframes changeColor {
+  0% {
+    background-color:  rgb(168, 91, 4);
+  }
+  1% {
+    font-family: 'Jolly Lodger', cursive;
+  }
+  100% {
+    background-color: rgb(128, 128, 240);
+    font-family: 'Jolly Lodger', cursive;
+    color:orange;
+  }
+}
+
+@keyframes change {
+  0% {
+    background-color:  rgb(252, 252, 252);
+  }
+  1% {
+    font-family: 'Jolly Lodger', cursive;
+  }
+  100% {
+    background-color: rgb(128, 128, 240);
+    font-family: 'Jolly Lodger', cursive;
+  }
+}
+
+@keyframes activ {
+  0% {
+    text-decoration: none;
+  }
+  100% {
+    text-decoration: line-through;
+  }
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(168, 91, 4);
+  cursor: pointer;
+}
+
+.pre-button:hover { 
+  animation: changeColor 3s infinite;
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.6);
+  cursor:pointer;
+}
+button:hover {
+  animation: change 3s infinite;
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.6);
+  cursor:pointer;
+  border-color: rgb(128, 128, 240);
+}
+
+a:active {
+  text-decoration: line-through;
+  color: #558ABB;
+}
+
+button:active {
+  box-shadow: 0px 0px 100px 40px rgba(0,0,0,0.6);
+  animation: activ 0.1s infinite;
+}
+
+.pre-button:active {
+  box-shadow: 0px 0px 100px 40px rgba(0,0,0,0.6);
+  animation: activ 0.1s infinite;
+}
